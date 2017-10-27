@@ -1,0 +1,16 @@
+{
+    "name": "theone-daxia/daxia",
+    "description": "一个简易的 php 框架",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xiaoyu",
+            "email": "xiaoyu.han@mfashion.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "Daxia\\": "src/" }
+    }
+}
