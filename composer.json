@@ -9,8 +9,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "theone-daxia/daxia-framework-database": "dev-master",
+        "theone-daxia/daxia-framework-router": "dev-master"
+    },
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/theone-daxia/daxia-framework-database.git"
+        },
+        "1": {
+            "type": "vcs",
+            "url": "https://github.com/theone-daxia/daxia-framework-router.git"
+        }
+    },
     "autoload": {
-        "psr-4": { "Daxia\\": "src/" }
+        "psr-4": {"Daxia\\": "./"}
     }
 }
